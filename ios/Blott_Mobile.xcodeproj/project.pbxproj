@@ -12,9 +12,17 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1461BDCBB2A740158CE1FF4F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 968D7CE27CAD487E8CEACEB0 /* Roboto-Regular.ttf */; };
 		1FA2E978DA3DBAF9964EC6DA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 89892238D00DCA3161EC2B2D /* PrivacyInfo.xcprivacy */; };
+		48652E87D3FA432881F22044 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D92173083740FC829D8002 /* Colors.xcassets */; };
 		7699B88040F8A987B510C191 /* libPods-Blott_Mobile-Blott_MobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Blott_Mobile-Blott_MobileTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		900785F6574441A482FDE557 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B94ABDCAA443C492841EB6 /* Roboto-Bold.ttf */; };
+		A2400BAFC48942A59A2672BA /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4529D9372FEF40079D334977 /* Raleway-Black.ttf */; };
+		C39CFB4DB3E546EBA9DBB32B /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C1DDA3E124FCC9583018B /* BootSplash.storyboard */; };
+		CFB3E8473986409D9F125941 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1588D1AFBC14569AF3DF7A7 /* Rubik-Medium.ttf */; };
+		D957A6B0AF2048BD885DF825 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6806275C22E541899FA62BA1 /* Roboto-Medium.ttf */; };
+		E53FDC929D884FA290546301 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E5B7773AB804993AFD21CF1 /* Rubik-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +48,21 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Blott_Mobile/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Blott_Mobile-Blott_MobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Blott_Mobile-Blott_MobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-Blott_Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blott_Mobile.debug.xcconfig"; path = "Target Support Files/Pods-Blott_Mobile/Pods-Blott_Mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		4529D9372FEF40079D334977 /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; };
+		4E5B7773AB804993AFD21CF1 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Blott_Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blott_Mobile.release.xcconfig"; path = "Target Support Files/Pods-Blott_Mobile/Pods-Blott_Mobile.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Blott_Mobile-Blott_MobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blott_Mobile-Blott_MobileTests.debug.xcconfig"; path = "Target Support Files/Pods-Blott_Mobile-Blott_MobileTests/Pods-Blott_Mobile-Blott_MobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Blott_Mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Blott_Mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6806275C22E541899FA62BA1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		71B94ABDCAA443C492841EB6 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Blott_Mobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89892238D00DCA3161EC2B2D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Blott_Mobile/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		89892238D00DCA3161EC2B2D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Blott_Mobile/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Blott_Mobile-Blott_MobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blott_Mobile-Blott_MobileTests.release.xcconfig"; path = "Target Support Files/Pods-Blott_Mobile-Blott_MobileTests/Pods-Blott_Mobile-Blott_MobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A4C1DDA3E124FCC9583018B /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = Blott_Mobile/BootSplash.storyboard; sourceTree = "<group>"; };
+		968D7CE27CAD487E8CEACEB0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C7D92173083740FC829D8002 /* Colors.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = Blott_Mobile/Colors.xcassets; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1588D1AFBC14569AF3DF7A7 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,8 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				89892238D00DCA3161EC2B2D /* PrivacyInfo.xcprivacy */,
+				8A4C1DDA3E124FCC9583018B /* BootSplash.storyboard */,
+				C7D92173083740FC829D8002 /* Colors.xcassets */,
 			);
 			name = Blott_Mobile;
 			sourceTree = "<group>";
@@ -127,6 +145,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E53D8CB5C9E94EBDB87F09AA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -151,6 +170,20 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-Blott_Mobile-Blott_MobileTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E53D8CB5C9E94EBDB87F09AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71B94ABDCAA443C492841EB6 /* Roboto-Bold.ttf */,
+				6806275C22E541899FA62BA1 /* Roboto-Medium.ttf */,
+				968D7CE27CAD487E8CEACEB0 /* Roboto-Regular.ttf */,
+				4529D9372FEF40079D334977 /* Raleway-Black.ttf */,
+				F1588D1AFBC14569AF3DF7A7 /* Rubik-Medium.ttf */,
+				4E5B7773AB804993AFD21CF1 /* Rubik-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +282,14 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				1FA2E978DA3DBAF9964EC6DA /* PrivacyInfo.xcprivacy in Resources */,
+				C39CFB4DB3E546EBA9DBB32B /* BootSplash.storyboard in Resources */,
+				48652E87D3FA432881F22044 /* Colors.xcassets in Resources */,
+				900785F6574441A482FDE557 /* Roboto-Bold.ttf in Resources */,
+				D957A6B0AF2048BD885DF825 /* Roboto-Medium.ttf in Resources */,
+				1461BDCBB2A740158CE1FF4F /* Roboto-Regular.ttf in Resources */,
+				A2400BAFC48942A59A2672BA /* Raleway-Black.ttf in Resources */,
+				CFB3E8473986409D9F125941 /* Rubik-Medium.ttf in Resources */,
+				E53FDC929D884FA290546301 /* Rubik-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4PZ2WMU82;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Blott_Mobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,6 +541,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4PZ2WMU82;
 				INFOPLIST_FILE = Blott_Mobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

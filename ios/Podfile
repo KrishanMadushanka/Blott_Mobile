@@ -22,7 +22,8 @@ target 'Blott_Mobile' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
-
+  pod 'RNCPushNotificationIOS', :path => '../node_modules/@react-native-community/push-notification-ios'
+  
   target 'Blott_MobileTests' do
     inherit! :complete
     # Pods for testing
